@@ -10,5 +10,5 @@ require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 app.listen(PORT, function() {
-    console.log("SERVER LISTINGING ON: http://localhost:" + PORT);
+    console.log("SERVER LISTENING ON: http://localhost:" + PORT);
   });
