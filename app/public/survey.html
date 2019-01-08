@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>FRIEND FINDER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<style type="text/css">
+    body{
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/circuit.png");
+        background-size: cover;
+        margin: auto;
+    }
+    h1{
+        color: rgba(189, 22, 44, 0.74);
+    }
+    h2{
+        color: rgba(70, 22, 180, 0.74);
+    }
+    </style>
+
+<body>
+
+    <div class="uk-container">
+        <h2 class="display-4 text-center"><a href="/"><i class="fas fa-user-friends"></i></a> FRIEND FINDER <a href="/"><i class="fas fa-home"></i></a></h2>
+
+        <h1 class="uk-heading-divider">SURVEY QUESTIONS</h1>
+
+        <h2 class="uk-heading-bullet">ABOUT YOU</h2>
+
+
+        <form>
+            <fieldset class="uk-fieldset">
+
+                <legend class="uk-legend">NAME (REQUIRED)</legend>
+
+                <div class="uk-margin">
+                    <input id="name" class="uk-input forminput" type="text" placeholder="Your Name">
+                </div>
+
+
+                <legend class="uk-legend">LINK TO PHOTO IMAGE (REQUIRED)</legend>
+
+                <div class="uk-margin">
+                    <input id="photolink" class="uk-input forminput" type="text" placeholder="URL">
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+
+    </div>
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">1.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">I'M A BIG FAN OF VOLLEYBALL, BUT I'LL ONLY USE A "WILSON".</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio1" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio1" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio1" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio1" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio1" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">2.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">SOMEDAY, I'D LIKE A LITTLE HOUSE ON A PRAIRIE.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio2" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio2" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio2" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio2" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio2" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">3.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">IF I COULD ROB A CASINO, I WOULD.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio3" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio3" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio3" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio3" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio3" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">4.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">I LOVE THE MOVIE, "GREASE".</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio4" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio4" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio4" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio4" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio4" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">5.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">I'M A HUGE FAN OF "007".</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio5" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio5" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio5" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio5" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio5" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">6.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">SOMETIMES I JUST FEEL LIKE RUNNING.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio6" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio6" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio6" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio6" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio6" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">7.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">SOMETIMES MY BOSS MAKES ME SO MAD!</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio7" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio7" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio7" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio7" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio7" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">8.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">I CAN DEAL WITH MISCHIEVOUS PEOPLE.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio8" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio8" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio8" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio8" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio8" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">9.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">SATURDAY NIGHTS ARE MY FAVORITE.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio9" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio9" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio9" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio9" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio9" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+
+
+    <div class="uk-container">
+        <h3 class="uk-heading-bullet">10.</h3>
+        <form>
+            <fieldset class="uk-fieldset answerselect">
+
+                <legend class="uk-legend">I'D JOIN ABBA IF I COULD.</legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label>DISAGREE</label>
+                    <label><input class="uk-radio" type="radio" name="radio10" value="1"> 1</label>
+                    <label><input class="uk-radio" type="radio" name="radio10" value="2"> 2</label>
+                    <label><input class="uk-radio" type="radio" name="radio10" value="3"> 3</label>
+                    <label><input class="uk-radio" type="radio" name="radio10" value="4"> 4</label>
+                    <label><input class="uk-radio" type="radio" name="radio10" value="5"> 5</label>
+                    <label>AGREE</label>
+                </div>
+
+            </fieldset>
+            <hr>
+        </form>
+    </div>
+
+    <div class="uk-container">
+        <button id="submitBtn" class="uk-button uk-button-primary uk-button-large">SUBMIT</button>
+    </div>
+
+
+    <br><br>
+    <footer class="footer">
+        <div class="uk-container">
+            <a href="/api/friends">API FRIENDS LIST</a> 
+            <span> | </span>
+            <a href="https://github.com/hawkguy1/FriendFinder">GITHUB REPO</a>
+        </div>
+    </footer>
+    <div class="uk-margin"></div>
+
+
+
+    <!-- To show message in modal pop-up -->
+    <div id="modaldiv" role="dialog" uk-toggle="target: #message">
+        <div id="message" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">YOUR MATCH</h2>
+                <h3 id="matchName"></h3>
+                <img id="matchPhoto" src="" alt="">
+                <br>
+                <button class="uk-button uk-button-default uk-modal-close" type="button">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+$("#submitBtn").on("click", function(event) {
+    event.preventDefault();
+    //to confirm all form field are filled in
+    function checkForm() {
+        var isEnter = true;
+        $(".forminput").each(function() {
+          if ($(this).val() === "") {
+            isEnter = false;
+          }
+        });
+        if (!($('input[name=radio1]:checked').val()) 
+        || (!$('input[name=radio2]:checked').val())
+        || (!$('input[name=radio3]:checked').val())
+        || (!$('input[name=radio4]:checked').val())
+        || (!$('input[name=radio5]:checked').val())
+        || (!$('input[name=radio6]:checked').val())
+        || (!$('input[name=radio7]:checked').val())
+        || (!$('input[name=radio8]:checked').val())
+        || (!$('input[name=radio9]:checked').val())
+        || (!$('input[name=radio10]:checked').val()))
+            {
+                isEnter = false;
+            }
+        return isEnter;
+      }
+    if(checkForm()) {
+    
+    //send newPerson data as an object
+        var newPerson = {
+            name: $("#name").val().trim(),
+            photo: $("#photolink").val().trim(),
+            scores: [
+                parseInt($('input[name=radio1]:checked').val()),
+                parseInt($('input[name=radio2]:checked').val()),
+                parseInt($('input[name=radio3]:checked').val()),
+                parseInt($('input[name=radio4]:checked').val()),
+                parseInt($('input[name=radio5]:checked').val()),
+                parseInt($('input[name=radio6]:checked').val()),
+                parseInt($('input[name=radio7]:checked').val()),
+                parseInt($('input[name=radio8]:checked').val()),
+                parseInt($('input[name=radio9]:checked').val()),
+                parseInt($('input[name=radio10]:checked').val())
+            ]
+        };
+        console.log(newPerson);
+        $.post("/api/friends", newPerson, function(data) {
+        
+        //trigger the modal popup after submit
+            $("#matchName").text(data.name);
+            $("#matchPhoto").attr("src", data.photo);
+            var modal = UIkit.modal("#message");
+            modal.show(); 
+            //empty the form after submit
+            $("#name").val("");
+            $("#photolink").val("");
+            $('input[name=radio1]').removeAttr("checked");
+            $('input[name=radio2]').removeAttr("checked");
+            $('input[name=radio3]').removeAttr("checked");
+            $('input[name=radio4]').removeAttr("checked");
+            $('input[name=radio5]').removeAttr("checked");
+            $('input[name=radio6]').removeAttr("checked");
+            $('input[name=radio7]').removeAttr("checked");
+            $('input[name=radio8]').removeAttr("checked");
+            $('input[name=radio9]').removeAttr("checked");
+            $('input[name=radio10]').removeAttr("checked");
+        });
+    } else {
+        alert("MAKE SURE YOU HAVE RESPONSES FOR EVERYTHING.");
+    }
+});
+</script>
